@@ -1,5 +1,49 @@
-template-repository (1.0-1) unstable; urgency=medium
+libpod-elemental-transformer-list-perl (0.102001-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * Import upstream version 0.102001.
+  * Update years of upstream copyright.
+  * Update upstream email address.
+  * Add new test dependency: libtest-fatal-perl.
+  * Declare compliance with Debian Policy 4.6.2.
+  * Set Rules-Requires-Root: no.
+  * Annotate test-only build dependencies with <!nocheck>.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- gregor herrmann <gregoa@debian.org>  Wed, 04 Jan 2023 19:51:34 +0100
+
+libpod-elemental-transformer-list-perl (0.102000-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 19 Nov 2022 20:29:56 +0000
+
+libpod-elemental-transformer-list-perl (0.102000-2) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
+
+  [ Debian Janitor ]
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata (already
+    present in machine-readable debian/copyright).
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 17 Jun 2022 00:19:02 +0100
+
+libpod-elemental-transformer-list-perl (0.102000-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Fri, 08 Jan 2021 14:36:21 +0100
+
+libpod-elemental-transformer-list-perl (0.102000-1) unstable; urgency=medium
+
+  * Initial Release. (Closes: #844219)
+
+ -- Dominique Dumont <dod@debian.org>  Sun, 13 Nov 2016 16:00:26 +0100
